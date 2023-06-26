@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('description');
             $table->unsignedInteger('number_of_days');
+            //$table->unsignedInteger('number_of_nights');
             $table->timestamps();
         });
     }
